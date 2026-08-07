@@ -1,0 +1,31 @@
+UserPrincipalName,DisplayName,GivenName,Surname,MailNickname,EmployeeId,JobTitle,Department,UsageLocation,City,State,Country,AccountEnabled,Password,HireDate
+james.smith@contosodallas.com,James Smith,James,Smith,jamessm,EMP1001,Finance Manager,Finance,US,Dallas,TX,United States,True,Secure#125#,2022-05-17
+mary.johnson@contosodallas.com,Mary Johnson,Mary,Johnson,maryjo,EMP1002,HR Specialist,HR,US,Dallas,TX,United States,True,Dallas#242!,2024-10-17
+john.williams@contosodallas.com,John Williams,John,Williams,johnwi,EMP1003,Talent Acquisition Specialist,HR,US,Dallas,TX,United States,True,Practice#189%,2023-05-15
+patricia.brown@contosodallas.com,Patricia Brown,Patricia,Brown,patriciabr,EMP1004,People Operations Lead,HR,US,Dallas,TX,United States,True,Secure#130!,2022-03-24
+robert.jones@contosodallas.com,Robert Jones,Robert,Jones,robertjo,EMP1005,HR Manager,HR,US,Dallas,TX,United States,True,Dallas#617%,2021-02-24
+jennifer.garcia@contosodallas.com,Jennifer Garcia,Jennifer,Garcia,jenniferga,EMP1006,HR Manager,HR,US,Dallas,TX,United States,True,Practice#303%,2023-05-10
+michael.miller@contosodallas.com,Michael Miller,Michael,Miller,michaelmi,EMP1007,Systems Architect,Engineering,US,Dallas,TX,United States,True,Dallas#559%,2022-07-24
+linda.davis@contosodallas.com,Linda Davis,Linda,Davis,lindada,EMP1008,Account Executive,Sales,US,Dallas,TX,United States,True,Secure#877@,2024-11-30
+william.rodriguez@contosodallas.com,William Rodriguez,William,Rodriguez,williamro,EMP1009,Finance Manager,Finance,US,Dallas,TX,United States,True,Cloud#448#,2021-11-15
+elizabeth.martinez@contosodallas.com,Elizabeth Martinez,Elizabeth,Martinez,elizabethma,EMP1010,Financial Analyst,Finance,US,Dallas,TX,United States,True,Dallas#881#,2021-07-29
+david.hernandez@contosodallas.com,David Hernandez,David,Hernandez,davidhe,EMP1011,Cloud Engineer,Engineering,US,Dallas,TX,United States,True,Secure#489!,2023-01-06
+barbara.lopez@contosodallas.com,Barbara Lopez,Barbara,Lopez,barbaralo,EMP1012,Software Engineer,Engineering,US,Dallas,TX,United States,True,Entra#718#,2025-07-11
+richard.gonzalez@contosodallas.com,Richard Gonzalez,Richard,Gonzalez,richardgo,EMP1013,Cloud Engineer,Engineering,US,Dallas,TX,United States,True,Secure#847$,2024-01-04
+susan.wilson@contosodallas.com,Susan Wilson,Susan,Wilson,susanwi,EMP1014,DevOps Engineer,Engineering,US,Dallas,TX,United States,True,Secure#487!,2024-02-05
+joseph.anderson@contosodallas.com,Joseph Anderson,Joseph,Anderson,josephan,EMP1015,Sales Manager,Sales,US,Dallas,TX,United States,True,Entra#949%,2025-12-19
+jessica.thomas@contosodallas.com,Jessica Thomas,Jessica,Thomas,jessicath,EMP1016,Finance Manager,Finance,US,Dallas,TX,United States,True,Entra#691@,2024-12-13
+thomas.taylor@contosodallas.com,Thomas Taylor,Thomas,Taylor,thomasta,EMP1017,Cloud Engineer,Engineering,US,Dallas,TX,United States,True,Secure#146@,2025-05-03
+sarah.moore@contosodallas.com,Sarah Moore,Sarah,Moore,sarahmo,EMP1018,Software Engineer,Engineering,US,Dallas,TX,United States,True,Entra#181@,2025-11-10
+charles.jackson@contosodallas.com,Charles Jackson,Charles,Jackson,charlesja,EMP1019,HR Specialist,HR,US,Dallas,TX,United States,True,Secure#489#,2023-07-18
+karen.martin@contosodallas.com,Karen Martin,Karen,Martin,karenma,EMP1020,People Operations Lead,HR,US,Dallas,TX,United States,True,Entra#266#,2022-12-29
+christopher.lee@contosodallas.com,Christopher Lee,Christopher,Lee,christopherle,EMP1021,Cloud Engineer,Engineering,US,Dallas,TX,United States,True,Dallas#786#,2024-12-08
+nancy.perez@contosodallas.com,Nancy Perez,Nancy,Perez,nancype,EMP1022,Sales Manager,Sales,US,Dallas,TX,United States,True,Secure#723@,2023-12-30
+daniel.thompson@contosodallas.com,Daniel Thompson,Daniel,Thompson,danielth,EMP1023,Sales Manager,Sales,US,Dallas,TX,United States,True,Dallas#267$,2023-02-17
+lisa.white@contosodallas.com,Lisa White,Lisa,White,lisawh,EMP1024,Account Executive,Sales,US,Dallas,TX,United States,True,Entra#755%,2022-03-26
+matthew.harris@contosodallas.com,Matthew Harris,Matthew,Harris,matthewha,EMP1025,Financial Analyst,Finance,US,Dallas,TX,United States,True,Entra#963!,2022-04-15
+betty.sanchez@contosodallas.com,Betty Sanchez,Betty,Sanchez,bettysa,EMP1026,Sales Representative,Sales,US,Dallas,TX,United States,True,Secure#924#,2023-04-02
+anthony.clark@contosodallas.com,Anthony Clark,Anthony,Clark,anthonycl,EMP1027,Accountant,Finance,US,Dallas,TX,United States,True,Entra#167@,2026-02-14
+margaret.ramirez@contosodallas.com,Margaret Ramirez,Margaret,Ramirez,margaretra,EMP1028,Sales Manager,Sales,US,Dallas,TX,United States,True,Practice#997#,2022-03-12
+mark.lewis@contosodallas.com,Mark Lewis,Mark,Lewis,markle,EMP1029,Financial Analyst,Finance,US,Dallas,TX,United States,True,Cloud#505$,2021-10-20
+sandra.robinson@contosodallas.com,Sandra Robinson,Sandra,Robinson,sandraro,EMP1030,Account Executive,Sales,US,Dallas,TX,United States,True,Entra#242@,2025-03-06
