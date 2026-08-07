@@ -34,4 +34,4 @@ jobs:
 
           # Pulling Confidential Key from Encrypted Repository Secrets
           CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
-        run: python update_users.py
+        run: python update_user.py
