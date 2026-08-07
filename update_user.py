@@ -3,11 +3,18 @@ import pandas as pd
 import requests
 from msal import ConfidentialClientApplication
 
+# Verification print statement to confirm the script updated
+print("--- RUNNING USER CREATION SCRIPT (POST METHOD) ---")
+
 TENANT_ID = os.getenv("TENANT_ID")
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
-# Replace with your actual default domain from Entra ID
 TENANT_DOMAIN = "Ngalemo182.onmicrosoft.com"
+
+# Verify credentials were loaded
+if not all([TENANT_ID, CLIENT_ID, CLIENT_SECRET]):
+    print("ERROR: Missing one or more required environment variables (TENANT_ID, CLIENT_ID, CLIENT_SECRET).")
+    exit(1)
 
 # Acquire Token
 authority = f"https://login.microsoftonline.com/{TENANT_ID}"
@@ -17,6 +24,10 @@ app = ConfidentialClientApplication(
 token_result = app.acquire_token_for_client(
     scopes=["https://graph.microsoft.com/.default"]
 )
+
+if "access_token" not in token_result:
+    print(f"ERROR Acquiring Token: {token_result.get('error_description')}")
+    exit(1)
 
 headers = {
     "Authorization": f"Bearer {token_result['access_token']}",
@@ -32,7 +43,6 @@ for _, row in df.iterrows():
     mail_nickname = f"{first_name.lower()}.{last_name.lower()}"
     upn = f"{mail_nickname}@{TENANT_DOMAIN}"
 
-    # Required payload structure for POST /v1.0/users
     payload = {
         "accountEnabled": True,
         "displayName": f"{first_name} {last_name}",
@@ -44,7 +54,6 @@ for _, row in df.iterrows():
         },
     }
 
-    # CRITICAL: POST to /v1.0/users, NOT /v1.0/users/{upn}
     url = "https://graph.microsoft.com/v1.0/users"
     response = requests.post(url, headers=headers, json=payload)
 
