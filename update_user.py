@@ -3,20 +3,20 @@ import pandas as pd
 import requests
 from msal import ConfidentialClientApplication
 
-# Verification print statement to confirm the script updated
-print("--- RUNNING USER CREATION SCRIPT (POST METHOD) ---")
+# Debug marker to verify script version in GitHub Actions logs
+print("=== STARTING ENTRA ID USER CREATION WORKFLOW (POST /v1.0/users) ===")
 
 TENANT_ID = os.getenv("TENANT_ID")
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 TENANT_DOMAIN = "Ngalemo182.onmicrosoft.com"
 
-# Verify credentials were loaded
+# Verify environment variables
 if not all([TENANT_ID, CLIENT_ID, CLIENT_SECRET]):
-    print("ERROR: Missing one or more required environment variables (TENANT_ID, CLIENT_ID, CLIENT_SECRET).")
+    print("ERROR: Missing TENANT_ID, CLIENT_ID, or CLIENT_SECRET environment variables.")
     exit(1)
 
-# Acquire Token
+# Authenticate with MSAL
 authority = f"https://login.microsoftonline.com/{TENANT_ID}"
 app = ConfidentialClientApplication(
     CLIENT_ID, client_credential=CLIENT_SECRET, authority=authority
@@ -26,7 +26,7 @@ token_result = app.acquire_token_for_client(
 )
 
 if "access_token" not in token_result:
-    print(f"ERROR Acquiring Token: {token_result.get('error_description')}")
+    print(f"ERROR: Token acquisition failed - {token_result.get('error_description')}")
     exit(1)
 
 headers = {
@@ -34,7 +34,7 @@ headers = {
     "Content-Type": "application/json",
 }
 
-# Read CSV
+# Load user list CSV
 df = pd.read_csv("sc300_practice_users_dallas-v2.csv")
 
 for _, row in df.iterrows():
@@ -54,6 +54,7 @@ for _, row in df.iterrows():
         },
     }
 
+    # Base endpoint for user creation
     url = "https://graph.microsoft.com/v1.0/users"
     response = requests.post(url, headers=headers, json=payload)
 
@@ -62,6 +63,4 @@ for _, row in df.iterrows():
     elif response.status_code == 409:
         print(f"User already exists: {upn}")
     else:
-        print(
-            f"Failed to create {upn}: {response.status_code} - {response.text}"
-        )
+        print(f"Failed to create {upn}: {response.status_code} - {response.text}")
