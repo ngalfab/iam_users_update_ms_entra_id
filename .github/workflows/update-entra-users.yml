@@ -1,4 +1,3 @@
----
 name: Update Entra ID Users
 
 on:
@@ -29,7 +28,10 @@ jobs:
 
       - name: Run User Update Script
         env:
-          TENANT_ID: ${{ secrets.TENANT_ID }}
-          CLIENT_ID: ${{ secrets.CLIENT_ID }}
+          # Pulling Non-Sensitive Public IDs from Repository Variables
+          TENANT_ID: ${{ vars.TENANT_ID }}
+          CLIENT_ID: ${{ vars.CLIENT_ID }}
+
+          # Pulling Confidential Key from Encrypted Repository Secrets
           CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
         run: python update_users.py
