@@ -1,0 +1,31 @@
+EmployeeID,FirstName,LastName,DisplayName,Email,Country,Region,Department,EmployeeType,Manager,JobTitle
+100001,John,Smith,John Smith,john.smith@contoso-manufacturing.com,Germany,EMEA,Finance,Employee,Michael Adams,Financial Analyst
+100002,Emma,Brown,Emma Brown,emma.brown@contoso-manufacturing.com,Germany,EMEA,Finance,Employee,Michael Adams,Accountant
+100003,Lucas,Martin,Lucas Martin,lucas.martin@contoso-manufacturing.com,France,EMEA,Finance,Employee,Michael Adams,Senior Accountant
+100004,Sophie,Dubois,Sophie Dubois,sophie.dubois@contoso-manufacturing.com,France,EMEA,HR,Employee,Sarah Müller,HR Specialist
+100005,David,Wilson,David Wilson,david.wilson@contoso-manufacturing.com,United Kingdom,EMEA,HR,Employee,Sarah Müller,HR Business Partner
+100006,Anna,Müller,Anna Müller,anna.mueller@contoso-manufacturing.com,Germany,EMEA,Sales,Employee,Robert Fischer,Sales Manager
+100007,James,Taylor,James Taylor,james.taylor@contoso-manufacturing.com,United Kingdom,EMEA,Sales,Employee,Robert Fischer,Account Executive
+100008,Peter,Schmidt,Peter Schmidt,peter.schmidt@contoso-manufacturing.com,Germany,EMEA,Manufacturing,Employee,Klaus Becker,Plant Supervisor
+100009,Marie,Lefevre,Marie Lefevre,marie.lefevre@contoso-manufacturing.com,France,EMEA,Manufacturing,Employee,Klaus Becker,Production Engineer
+100010,Sarah,Jones,Sarah Jones,sarah.jones@contoso-manufacturing.com,United States,AMER,HR,Employee,Jennifer White,HR Manager
+100011,Michael,Johnson,Michael Johnson,michael.johnson@contoso-manufacturing.com,United States,AMER,Finance,Employee,David Green,Finance Manager
+100012,Jennifer,White,Jennifer White,jennifer.white@contoso-manufacturing.com,United States,AMER,HR,Employee,William Carter,Director HR
+100013,Robert,Lopez,Robert Lopez,robert.lopez@contoso-manufacturing.com,Mexico,AMER,Sales,Employee,Mark Thompson,Sales Director
+100014,Carlos,Garcia,Carlos Garcia,carlos.garcia@contoso-manufacturing.com,Mexico,AMER,Manufacturing,Employee,Luis Ramirez,Manufacturing Manager
+100015,Amanda,Clark,Amanda Clark,amanda.clark@contoso-manufacturing.com,Canada,AMER,Finance,Employee,David Green,Financial Controller
+100016,William,Carter,William Carter,william.carter@contoso-manufacturing.com,United States,AMER,HR,Employee,Karen Mitchell,VP Human Resources
+100017,Mark,Thompson,Mark Thompson,mark.thompson@contoso-manufacturing.com,United States,AMER,Sales,Employee,Thomas Reed,VP Sales
+100018,Luis,Ramirez,Luis Ramirez,luis.ramirez@contoso-manufacturing.com,Mexico,AMER,Manufacturing,Employee,Thomas Reed,Regional Operations Director
+100019,Olivia,Lee,Olivia Lee,olivia.lee@contoso-manufacturing.com,Canada,AMER,Sales,Contractor,Mark Thompson,Sales Consultant
+100020,Kevin,Hall,Kevin Hall,kevin.hall@contoso-manufacturing.com,United States,AMER,IT,Employee,Steven Brooks,Systems Engineer
+100021,Hiro,Tanaka,Hiro Tanaka,hiro.tanaka@contoso-manufacturing.com,Japan,APAC,Finance,Employee,Akira Suzuki,Finance Analyst
+100022,Akira,Suzuki,Akira Suzuki,akira.suzuki@contoso-manufacturing.com,Japan,APAC,Finance,Employee,Yuki Yamamoto,Finance Manager
+100023,Mei,Lin,Mei Lin,mei.lin@contoso-manufacturing.com,Singapore,APAC,HR,Employee,Grace Wong,HR Director
+100024,Grace,Wong,Grace Wong,grace.wong@contoso-manufacturing.com,Singapore,APAC,HR,Employee,Yuki Yamamoto,Regional HR Manager
+100025,Raj,Patel,Raj Patel,raj.patel@contoso-manufacturing.com,India,APAC,Sales,Employee,Vikram Sharma,Sales Manager
+100026,Vikram,Sharma,Vikram Sharma,vikram.sharma@contoso-manufacturing.com,India,APAC,Sales,Employee,Yuki Yamamoto,Regional Sales Director
+100027,Chen,Wei,Chen Wei,chen.wei@contoso-manufacturing.com,China,APAC,Manufacturing,Employee,Li Jing,Plant Manager
+100028,Li,Jing,Li Jing,li.jing@contoso-manufacturing.com,China,APAC,Manufacturing,Employee,Yuki Yamamoto,Manufacturing Director
+100029,Siti,Rahman,Siti Rahman,siti.rahman@contoso-manufacturing.com,Malaysia,APAC,IT,Employee,Steven Brooks,Cloud Engineer
+100030,Yuki,Yamamoto,Yuki Yamamoto,yuki.yamamoto@contoso-manufacturing.com,Japan,APAC,Executive,Employee,CEO Office,Regional VP APAC

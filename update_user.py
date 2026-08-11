@@ -68,7 +68,7 @@ def main():
     }
 
     # Step B: Load & Process Input Data
-    csv_path = "sc300_practice_users_dallas-v2.csv"
+    csv_path = "users.csv"
     if not os.path.exists(csv_path):
         print(f"ERROR: Input file '{csv_path}' not found.")
         sys.exit(1)
